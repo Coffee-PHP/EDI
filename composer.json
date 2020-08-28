@@ -1,0 +1,42 @@
+{
+	"name": "coffeephp/edi",
+	"description": "Provides an interface for EDI classes to implement.",
+	"license": "Apache-2.0",
+	"authors": [
+		{
+			"name": "Danny Damsky",
+			"email": "dannydamsky99@gmail.com"
+		}
+	],
+	"keywords": [
+		"coffeephp",
+		"coffee",
+		"php",
+		"edi",
+		"electronic",
+		"data",
+		"interchange",
+		"serialize",
+		"unserialize",
+		"serialization",
+		"unserialization",
+		"deserialize",
+		"deserialization"
+	],
+	"require": {
+		"php": ">=7.4",
+		"ext-apcu": "*",
+		"coffeephp/serialize": "1.*",
+		"coffeephp/unserialize": "1.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"CoffeePhp\\Edi\\": "src/"
+		}
+	},
+	"config": {
+		"sort-packages": true,
+		"optimize-autoloader": true,
+		"apcu-autoloader": true
+	}
+}
