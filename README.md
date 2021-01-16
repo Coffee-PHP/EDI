@@ -1,5 +1,7 @@
 # Coffee PHP - EDI (Electronic Data Interchange)
 
+![Build](https://github.com/Coffee-PHP/EDI/workflows/Build/badge.svg)
+
 Provides an interface for EDI classes to implement.
 
 ```
